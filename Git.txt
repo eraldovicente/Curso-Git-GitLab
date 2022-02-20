@@ -1,0 +1,22 @@
+ls -la
+git init
+ls -la
+touch --help
+touch file.txt
+touch file2.txt
+ls -la
+echo "Hola Biana" > file3.txt
+ls -la
+cat file3.txt
+echo "Hola denuevo Biana" >> file.txt
+cat file.txt
+echo "Hola denuevo Biana" >> file3.txt
+cat file3.txt
+nano file.txt
+Ctrl + x = Sair
+rm file2.txt
+mkdir otra-carpeta
+ls -la
+rm -rf otra-carpeta
+ls -la
+rm --help
