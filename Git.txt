@@ -53,6 +53,8 @@ git cat-file -t 38eead0f
 git cat-file -s 38eead0f
 rm segundo.txt
 ls -la 
+find .git/objects/ -type f
+cat temp-tree.txt
 
 
 
