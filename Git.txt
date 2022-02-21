@@ -43,3 +43,21 @@ echo "Hola Biana" | git hash-object --stdin -w
 git cat-file -p 6b8852
 git cat-file -t 6b8852
 git cat-file -s 6b8852
+echo "Segundo fichero" > segundo.txt
+ls -la
+cat segundo.txt
+git hash-object segundo.txt
+git hash-object segundo.txt -w
+git cat-file -p 38eead0f
+git cat-file -t 38eead0f
+git cat-file -s 38eead0f
+rm segundo.txt
+ls -la 
+
+
+
+
+
+
+
+
