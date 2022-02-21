@@ -20,3 +20,8 @@ ls -la
 rm -rf otra-carpeta
 ls -la
 rm --help
+ls -la
+explorer .
+cd .git/
+cat config
+cat HEAD
