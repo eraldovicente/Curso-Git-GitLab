@@ -25,3 +25,21 @@ explorer .
 cd .git/
 cat config
 cat HEAD
+
++--------------------------------------+
+| Git object types:                    |
+| Blob > Tree > Commit > Annotated Tag |
++--------------------------------------+                                              
+
+echo "Hola Biana"
+echo "Hola Biana" | git hash-object --stdin
+explorer .
+echo "Hola Biana" | git hash-object --stdin -w
+explorer .
+echo "Hola Biana 2" | git hash-object --stdin -w
+shasum --help
+echo "Hola Biana" | shasum
+echo "Hola Biana" | git hash-object --stdin -w
+git cat-file -p 6b8852
+git cat-file -t 6b8852
+git cat-file -s 6b8852
